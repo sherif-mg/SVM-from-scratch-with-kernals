@@ -2,10 +2,10 @@
 Introduction to Support Vector Machines
 Support Vector Machines aim to find the optimal hyperplane that separates data points of different classes with the maximum margin. The margin is the distance between the hyperplane and the nearest data points from each class, known as support vectors. The goal is to maximize this margin, which helps in achieving better generalization on unseen data.
 
-**Hard Margin SVM**__
+**Hard Margin SVM**_
 Hard Margin SVM is used when the data is perfectly linearly separable. It seeks to find a hyperplane that not only separates the classes but does so with the maximum margin, ensuring no data points are misclassified. 
 
-**Soft Margin SVM**__
+**Soft Margin SVM**_
 In real-world scenarios, data is often not perfectly linearly separable. Soft Margin SVM introduces slack variables to allow some misclassifications and find a balance between maximizing the margin and minimizing the classification error
 
 **Kernel Tricks**__
